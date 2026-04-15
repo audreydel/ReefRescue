@@ -39,7 +39,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://reefrescue.netlify.app/"],  # update this after Netlify deploy
+    allow_origins=["http://localhost:5173", "https://reefrescue.netlify.app"],  # update this after Netlify deploy
     allow_methods=["GET"],
     allow_headers=["*"],
 )
